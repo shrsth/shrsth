@@ -2,7 +2,9 @@
 
 <img src="assets/header.svg" alt="Shresth Modi — AI/ML engineer, Bengaluru. Retrieval-augmented generation, LLM agents, and machine learning that ends in a decision." width="100%">
 
-<br><br>
+<img src="assets/typing.svg" alt="Building ML systems that end in a decision · Vectorless RAG, no embeddings, no vector DB · Shipped to production, not to a notebook" width="100%">
+
+<br>
 
 [![Email](https://img.shields.io/badge/Email-3B322B?style=flat-square)](mailto:meshrsth10@gmail.com)
 [![MutualMind](https://img.shields.io/badge/MutualMind_·_live-3B322B?style=flat-square)](https://mutualmind.onrender.com)
@@ -18,6 +20,10 @@
 Most of my work sits one layer above the model. A churn probability is worth nothing until it becomes a budget-constrained action with a number attached. A chatbot answer is worth nothing until it's grounded in something you can point at. That gap is the interesting part, and it's what both of my main projects are really about.
 
 I'm in my final year, looking for **AI/ML and data science roles** — open to software engineering and full-stack too. Away from the keyboard: football, fashion, and a mutual-fund habit I got tired of tracking in spreadsheets, which is how MutualMind started.
+
+<br>
+
+<img src="assets/numbers.svg" alt="By the numbers: 83 Jest tests in MutualMind, 52 REST endpoints, 0.845 ROC AUC on the retention model, 3.54× return on retention spend." width="100%">
 
 <br>
 

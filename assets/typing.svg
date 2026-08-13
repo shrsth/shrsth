@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 78" width="1200" height="78" role="img" aria-label="Building ML systems that end in a decision. Vectorless RAG, no embeddings, no vector DB. Shipped to production, not to a notebook.">
+  <title>What I'm building</title>
+
+  <defs>
+    <linearGradient id="tpaper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F8F2E7"/>
+      <stop offset="100%" stop-color="#EFE6D6"/>
+    </linearGradient>
+
+    <clipPath id="c1"><rect class="wipe w1" x="72" y="18" width="1090" height="42"/></clipPath>
+    <clipPath id="c2"><rect class="wipe w2" x="72" y="18" width="1090" height="42"/></clipPath>
+    <clipPath id="c3"><rect class="wipe w3" x="72" y="18" width="1090" height="42"/></clipPath>
+
+    <style>
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+                     "Liberation Mono", "Courier New", monospace;
+        font-size: 23px;
+        fill: #3A2F27;
+      }
+      .caret { fill: #A32E2A; }
+      .chev  { fill: #A32E2A; font-weight: 700; }
+
+      /* Each phrase is revealed by scaling its clip rect from 0 -> 1 in
+         character-sized steps, then collapsed again for the next one. */
+      .wipe { transform-box: fill-box; transform-origin: left center; }
+
+      .w1 { animation: r1 16.5s infinite; }
+      .w2 { animation: r2 16.5s infinite; }
+      .w3 { animation: r3 16.5s infinite; }
+
+      @keyframes r1 {
+        0%     { transform: scaleX(0); animation-timing-function: steps(42, end); }
+        11%    { transform: scaleX(1); }
+        31%    { transform: scaleX(1); }
+        31.5%  { transform: scaleX(0); }
+        100%   { transform: scaleX(0); }
+      }
+      @keyframes r2 {
+        0%,33.3%  { transform: scaleX(0); animation-timing-function: steps(44, end); }
+        44.3%     { transform: scaleX(1); }
+        64.6%     { transform: scaleX(1); }
+        65.1%     { transform: scaleX(0); }
+        100%      { transform: scaleX(0); }
+      }
+      @keyframes r3 {
+        0%,66.6%  { transform: scaleX(0); animation-timing-function: steps(40, end); }
+        77.6%     { transform: scaleX(1); }
+        98%       { transform: scaleX(1); }
+        98.5%     { transform: scaleX(0); }
+        100%      { transform: scaleX(0); }
+      }
+
+      .blink { animation: blink 1.05s steps(1, end) infinite; }
+      @keyframes blink { 0%,50% { opacity: 1; } 50.01%,100% { opacity: 0; } }
+
+      @media (prefers-reduced-motion: reduce) {
+        .w1 { animation: none; transform: scaleX(1); }
+        .w2, .w3 { animation: none; transform: scaleX(0); }
+        .blink { animation: none; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="78" rx="4" fill="url(#tpaper)"/>
+
+  <text class="mono chev" x="40" y="47">&#8250;</text>
+
+  <g clip-path="url(#c1)">
+    <text class="mono" x="72" y="47">building ML systems that end in a decision<tspan class="caret blink"> &#9608;</tspan></text>
+  </g>
+  <g clip-path="url(#c2)">
+    <text class="mono" x="72" y="47">vectorless RAG &#183; no embeddings, no vector DB<tspan class="caret blink"> &#9608;</tspan></text>
+  </g>
+  <g clip-path="url(#c3)">
+    <text class="mono" x="72" y="47">shipped to production, not to a notebook<tspan class="caret blink"> &#9608;</tspan></text>
+  </g>
+</svg>
