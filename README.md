@@ -61,6 +61,11 @@ A full-stack advisory platform for Indian mutual-fund investors that computes it
 | Testing | 83 automated Jest tests across 4 suites |
 | Security | Closed a JWT-forgery hole with boot-time secret validation · remediated **16 → 3** dependency CVEs |
 
+| Dashboard | Wealth Guide — the vectorless RAG chatbot |
+|:--|:--|
+| ![MutualMind dashboard showing live profit and loss, goal progress cards and wealth-journey milestones](assets/dashboard.png) | ![The Wealth Guide chatbot answering a capital-gains question, grounded in the curated knowledge base](assets/chatbot.png) |
+| <sub>Live P&L, goal progress, wealth-journey milestones</sub> | <sub>Grounded answers — the correct LTCG rate, not a hallucinated one</sub> |
+
 *Demo account: `demo@mutualmind.dev` / `demo12345`. Render's free tier takes about 50 seconds to wake on the first request.*
 
 <br>
@@ -103,7 +108,7 @@ February to June 2026 · RAG, multi-agent systems, Docling, spaCy, Azure OpenAI,
 
 <br>
 
----
+<img src="assets/rule.svg" alt="" width="100%">
 
 <div align="center">
 
